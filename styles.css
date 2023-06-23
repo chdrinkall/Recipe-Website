@@ -1,0 +1,19 @@
+/* Styles CSS */
+
+h1 {
+color: forestgreen;}
+/*Pizza img resize */
+.pizzaimg img{
+    width: 50%;
+    height: auto;
+}
+/*wings img resize */
+.wingsimg img{
+    width: 50%;
+    height: auto;
+}
+/*lasagna img resize */
+.lasagnaimg img{
+    width: 50%;
+    height: auto;
+}
