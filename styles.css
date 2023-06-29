@@ -4,7 +4,7 @@ body {
     background-size: cover;
 }
 
-/* Style for food pictures */
+/* Style for food pictures at individual website */
 .foodimg img{
     display: block;
     width: 30%;
@@ -16,14 +16,59 @@ body {
     border-style: solid;
     border-width: 5px;
     border-radius: 50px;
-
 }
 
-
+/* Text format for h1 on site */
 .food-head{
     text-align: center;
     color: black;
     font-size: 100px;
     margin-top: -5px;
     
+}
+/* Centers images for links to recipes */
+* {
+    box-sizing: border-box;
+  }
+  .indexpic{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: .5%;
+    border-radius: 50px;
+
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .indexlink{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: black;
+  
+  }
+/* Removes link underlines */
+  a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
