@@ -1,19 +1,29 @@
-/* Styles CSS */
+/* Style for background */
+body {
+    background-color: blanchedalmond;
+    background-size: cover;
+}
 
-h1 {
-color: forestgreen;}
-/*Pizza img resize */
-.pizzaimg img{
-    width: 50%;
+/* Style for food pictures */
+.foodimg img{
+    display: block;
+    width: 30%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+
 }
-/*wings img resize */
-.wingsimg img{
-    width: 50%;
-    height: auto;
-}
-/*lasagna img resize */
-.lasagnaimg img{
-    width: 50%;
-    height: auto;
+
+
+.food-head{
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    margin-top: -5px;
+    
 }
