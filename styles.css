@@ -72,3 +72,22 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
+/* CSS to recipe pages to make them center and some styling */
+.list-container{
+  text-align: center;
+}
+ol.my-list{
+  display: inline-block;
+  text-align: left;
+}
+
+ul.my-list{
+  display: inline-block;
+  text-align: left;
+}
+
+.list-container .paragraph{
+  font-weight: bold;
+  font-style: italic;
+}
